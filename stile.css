@@ -57,6 +57,10 @@ nav li a{
     color: #000000;
 }
 
+nav li a:hover{
+    text-decoration: underline;
+}
+
 nav li.corrente{
     text-decoration: underline;
 }
@@ -70,27 +74,73 @@ section.hero{
     margin-bottom: 2%;
 }
 
+div.grid_container{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 25%;
+}
+
 div.testo_home{
     margin-left: 2%;
     margin-bottom: 2%;
-    position: absolute;
-    margin-top: 40%;
 }
 
-div.testo_home h1, div.testo_home p{
+div.testo_home h1, div.testo_home h2{
     margin-bottom: 2%;
+}
+
+div.testo_home p{
+    margin-bottom: 4%;
 }
 
 div.testo_home p{
     font-family: Text_Regular;
     font-size: 30px;
-    width: 50%;
+    width: 48%;
 }
 
 div.testo_home h1{
     font-family: Display_Bold;
     font-size: 65px;
-    width: 55%;
+    width: 40%;
+    margin-top: 40%;
+}
+
+div.testo_home{
+    font-family: Display_Medium;
+    font-size: 26px;
+}
+
+div.localnav{
+    font-family: Text_Regular;
+    font-size: 32px;
+    margin-top: 63%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    position: absolute;
+}
+
+div.localnav ul{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20%;
+}
+
+div.localnav ul li a{
+    color: #000000;
+}
+
+div.localnav ul li a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #111111;
+    width: 100%;
+    height: 200px;
+    color: #FFFFFF;
+    margin-top: 30%;
+    /*font-family: Display_Regular;*/
 }
 
 @font-face {
@@ -117,6 +167,6 @@ div.testo_home h1{
 
 @font-face {
     font-family: Text_Medium;
-    src: url(font/display/HelveticaNowDisplay-Bold.otf);
+    src: url(font/display/HelveticaNowText-Bold.otf);
     font-weight: bold;
 }
