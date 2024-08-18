@@ -85,7 +85,7 @@ div.testo_home h1, div.testo_home h2, div.testo h1, div.testo h2{
 
 div.testo{
     position: relative;
-    margin-bottom: 2%;
+    margin-bottom: 4%;
     left: 2%;
     top: 30%;
 }
@@ -94,6 +94,7 @@ div.testo_home p, div.testo p{
     font-family: Text_Regular;
     font-size: 30px;
     width: 48%;
+    margin-bottom: 2%;
 }
 
 div.testo_home h1, div.testo h1{
@@ -107,6 +108,11 @@ div.testo_home{
     font-size: 26px;
     margin-left: 2%;
     margin-bottom: 4%;
+}
+
+div.testo h2{
+    font-family: Display_Medium;
+    font-size: 36px;
 }
 
 div.localnav{
