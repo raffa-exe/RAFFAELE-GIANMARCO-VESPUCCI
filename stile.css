@@ -11,6 +11,10 @@ header{
     font-family: Display_Regular;
 }
 
+header a{
+    color: #FFFFFF;
+}
+
 header h3{
     font-family: Display_Bold;
     letter-spacing: 3.12px;
