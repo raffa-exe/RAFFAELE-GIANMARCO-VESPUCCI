@@ -39,17 +39,18 @@ div.lang{
 }
 
 nav{
-    width: 100%;
+    width: 75%;
     height: 80px;
     top: 17%;
-    position: relative;
+    position: absolute;
     font-family: Display_Regular;
-    margin-bottom: 6%;
+    margin-bottom: 18%;
+    left: 22%;
 }
 
 ul{
     display: grid;
-    grid-template-columns: 12% 12% 12% 12% 12% 12%;
+    grid-template-columns: 12% 12% 12% 12% 14% 12%;
     list-style-type: none;
 }
 
@@ -139,6 +140,10 @@ footer p{
     top: 55px;
     font-family: Display_Regular;
     position: relative;
+}
+
+footer div.grid div h4{
+    font-family: Text_Medium;
 }
 
 @font-face {
