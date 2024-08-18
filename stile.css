@@ -1,6 +1,5 @@
 body{
     background-color: #F2F2F2;
-    position: absolute;
 }
 
 header{
@@ -28,10 +27,9 @@ header p{
 div.lang{
     width: 5%;
     font-family: Display_Medium;
-}
-
-div.lang p{
-    right: 10%;
+    right: 5%;
+    position: absolute;
+    top: 35%;
 }
 
 *{
@@ -44,7 +42,7 @@ nav{
     width: 100%;
     height: 80px;
     top: 17%;
-    position: relative;
+    position: absolute;
     font-family: Display_Regular;
     margin-left: 18%;
     margin-bottom: 6%;
@@ -71,28 +69,25 @@ nav li.corrente{
 section.hero{
     background-color: #D9D9D9;
     width: 100%;
-    height: 60%;
+    height: 50%;
     position: relative;
     margin-bottom: 15%;
+    top: 25%;
 }
 
 div.grid_container{
     display: grid;
     grid-template-columns: auto;
-    gap: 25%;
+    gap: 3%;
 }
 
 div.testo_home{
     margin-left: 2%;
-    margin-bottom: 2%;
+    margin-bottom: 4%;
 }
 
 div.testo_home h1, div.testo_home h2{
     margin-bottom: 2%;
-}
-
-div.testo_home p{
-    margin-bottom: 4%;
 }
 
 div.testo_home p{
@@ -115,7 +110,6 @@ div.testo_home{
 div.localnav{
     font-family: Text_Regular;
     font-size: 32px;
-    margin-top: 63%;
     margin-bottom: 2%;
     margin-left: 2%;
 }
