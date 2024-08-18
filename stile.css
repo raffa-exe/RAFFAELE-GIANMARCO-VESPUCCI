@@ -20,7 +20,7 @@ header h3{
 
 header p{
     font-size: 16px;
-    margin-left: 11.5%;
+    margin-left: 9%;
     margin-top: 0.5%;
 }
 
@@ -42,9 +42,8 @@ nav{
     width: 100%;
     height: 80px;
     top: 17%;
-    position: absolute;
+    position: relative;
     font-family: Display_Regular;
-    margin-left: 18%;
     margin-bottom: 6%;
 }
 
@@ -75,17 +74,6 @@ section.hero{
     top: 25%;
 }
 
-div.grid_container{
-    display: grid;
-    grid-template-columns: auto;
-    gap: 3%;
-}
-
-div.testo_home{
-    margin-left: 2%;
-    margin-bottom: 4%;
-}
-
 div.testo_home h1, div.testo_home h2{
     margin-bottom: 2%;
 }
@@ -105,12 +93,14 @@ div.testo_home h1{
 div.testo_home{
     font-family: Display_Medium;
     font-size: 26px;
+    margin-left: 2%;
+    margin-bottom: 4%;
 }
 
 div.localnav{
     font-family: Text_Regular;
     font-size: 32px;
-    margin-bottom: 2%;
+    margin-bottom: 15%;
     margin-left: 2%;
 }
 
@@ -133,8 +123,22 @@ footer{
     width: 100%;
     height: 200px;
     color: #FFFFFF;
-    margin-top: 30%;
-    /*font-family: Display_Regular;*/
+}
+
+footer h3{
+    font-family: Display_Bold;
+    letter-spacing: 3.12px;
+    margin-left: 2%;
+    top: 50px;
+    position: relative;
+}
+
+footer p{
+    font-size: 16px;
+    margin-left: 9%;
+    top: 55px;
+    font-family: Display_Regular;
+    position: relative;
 }
 
 @font-face {
