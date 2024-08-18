@@ -155,7 +155,7 @@ footer div.grid{
     margin: auto;
     margin-left: 40%;
     display: grid;
-    grid-template-columns: 35% 35% 35%;
+    grid-template-columns: 35% 35% 30%;
 }
 
 footer div.grid div h4{
@@ -165,7 +165,7 @@ footer div.grid div h4{
 
 footer div.grid div li{
     font-family: Text_Regular;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 footer div.grid div li a{
@@ -174,6 +174,21 @@ footer div.grid div li a{
 
 footer div.grid div li a:hover{
     text-decoration: underline;
+}
+
+footer div.grid div img{
+    width: 17px;
+    height: 17px;
+}
+
+footer div.grid div p{
+    width: 255%;
+    right: 80%;
+}
+
+footer div.grid div.grid_social{
+    display: grid;
+    grid-template-columns: 8% 8%;
 }
 
 @font-face {
