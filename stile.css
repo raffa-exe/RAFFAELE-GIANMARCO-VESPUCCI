@@ -79,17 +79,24 @@ section.hero{
     top: 25%;
 }
 
-div.testo_home h1, div.testo_home h2{
+div.testo_home h1, div.testo_home h2, div.testo h1, div.testo h2{
     margin-bottom: 2%;
 }
 
-div.testo_home p{
+div.testo{
+    position: relative;
+    margin-bottom: 2%;
+    left: 2%;
+    top: 30%;
+}
+
+div.testo_home p, div.testo p{
     font-family: Text_Regular;
     font-size: 30px;
     width: 48%;
 }
 
-div.testo_home h1{
+div.testo_home h1, div.testo h1{
     font-family: Display_Bold;
     font-size: 65px;
     width: 40%;
