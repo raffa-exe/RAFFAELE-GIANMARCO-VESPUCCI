@@ -136,6 +136,16 @@ div.localnav ul li a:hover{
     text-decoration: underline;
 }
 
+div.immagine{
+    width: 100%;
+    position: relative;
+    margin-top: 15%;
+}
+
+div.immagine img{
+    margin-left: 35%;
+}
+
 footer{
     background-color: #111111;
     width: 100%;
