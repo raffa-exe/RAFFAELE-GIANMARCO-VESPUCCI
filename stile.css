@@ -27,9 +27,11 @@ header p{
 
 div.lang{
     width: 5%;
-    right: 0;
-    margin-right: 10%;
     font-family: Display_Medium;
+}
+
+div.lang p{
+    right: 10%;
 }
 
 *{
