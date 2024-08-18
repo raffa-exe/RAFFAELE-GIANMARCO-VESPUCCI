@@ -144,6 +144,7 @@ footer{
     padding-top: 20px;
     padding-bottom: 30px;
     margin: 0;
+    margin-top: 18%;
 }
 
 footer h3{
@@ -181,11 +182,11 @@ footer div.grid div li{
     font-size: 17px;
 }
 
-footer div.grid div li a{
+footer a{
     color: #FFFFFF;
 }
 
-footer div.grid div li a:hover{
+footer a:hover{
     text-decoration: underline;
 }
 
