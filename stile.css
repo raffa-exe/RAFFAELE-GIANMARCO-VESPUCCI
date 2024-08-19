@@ -146,7 +146,7 @@ div.immagine{
     margin-top: 15%;
 }
 
-div.immagine img{
+div.immagine img, div.immagine video{
     margin-left: 35%;
 }
 
