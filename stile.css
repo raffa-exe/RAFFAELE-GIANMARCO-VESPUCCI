@@ -119,6 +119,13 @@ div.testo h2{
     font-size: 36px;
 }
 
+div.testo ul li{
+    font-family: Text_Regular;
+    font-size: 32px;
+    list-style: disc;
+    margin-left: 2%;
+}
+
 div.localnav{
     font-family: Text_Regular;
     font-size: 32px;
