@@ -49,7 +49,7 @@ nav{
     position: absolute;
     font-family: Display_Regular;
     margin-bottom: 18%;
-    left: 22%;
+    left: 25%;
 }
 
 ul{
@@ -219,6 +219,7 @@ footer div.grid div img{
 footer div.grid div p{
     width: 255%;
     right: 80%;
+    font-size: 12px;
 }
 
 footer div.grid div.grid_social{
@@ -262,6 +263,27 @@ footer div.grid div.grid_social{
     nav{
         font-size: 12px;
         grid-template-columns: 15% 15% 15% 15% 17% 15%;
+    }
+
+    div.testo_home h1, div.testo h1{
+        font-size: 50px;
+    }
+
+    footer div.grid div h4{
+        font-size: 15px;
+    }
+
+    footer div.grid div ul li, footer div.grid div div.grid_social ul li{
+        font-size: 12px;
+    }
+
+    footer div.grid div div.grid_social ul li img{
+        width: 10px;
+        height: 10px;
+    }
+
+    footer div.grid div p{
+        font-size: 12px;
     }
 }
 
@@ -376,5 +398,44 @@ footer div.grid div.grid_social{
 
     nav{
         display: none;
+    }
+
+    section.hero{
+        top: 11.5%;
+        margin-bottom: 20%;
+    }
+
+    div.testo h1, div.testo_home h1{
+        font-size: 40px;
+        width: 73%;
+        margin-top: 5%;
+    }
+
+    div.testo p, div.testo_home p{
+        font-size: 25px;
+        width: 80%;
+    }
+
+    div.localnav{
+        font-size: 25px;
+        margin-bottom: 40%;
+    }
+
+    h2{
+        font-size: 35px;
+    }
+
+    footer div.grid{
+        display: grid;
+        grid-template-columns: 40%;
+        gap: 5px;
+    }
+    
+    footer h3{
+        font-size: 15px;
+    }
+
+    footer p{
+        font-size: 13px;
     }
 }
